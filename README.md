@@ -1,39 +1,53 @@
-Travelog -  국내 여행자와 가이드를 위한 커뮤니티 사이트입니다. 
+# Travelog
 
-여행 경로 생성, 게시글(후기/동행/가이드) 등록, 채팅 등이 사이트의 주요 기능입니다. 
-상세 기능:
-  - 회원 가입/로그인/소셜 로그인
-  - 로그아웃/비밀번호 찾기
-  - 게시물(후기/동행/가이드/추천한 게시물/참여한 여행) 조회 및 상세 게시글 조회
-  - 게시글 등록/수정/삭제 & 여행 참여/취소 & 댓글/좋아요
-  - 여행 경로 생성
-  - 여행 경로 조회/수정/삭제
+**프로젝트 소개**: 국내 여행자와 가이드를 위한 플랫폼으로 지도를 통해 여행 계획을 만들어 이를 바탕으로 동행자 구하기, 여행 참가, 여행 후기 게시글을 올릴 수 있는 커뮤니티 서비스를 제공합니다. 
+
+---
+
+## 🛠️ 주요 기능 (Features)
+
+- **사용 스택**
+
+  - React.js, Next.js, Typescript, TailwindCSS, WebSocket
+ 
+- **사용 API**
+  - Google Maps/Places API
   - 내 게시글 조회/삭제 및 내 정보 조회/프로필 사진 수정
   - 유저 간 채팅 기능/채팅 목록 조회
 
-기술 스택:
-  - Next.js
-  - Typescript
-  - React.js
+- **회원 관리**
+  - 회원 가입, 로그인, 소셜 로그인
+  - 로그아웃과 비밀번호 찾기 
 
-스타일링 도구:
-  - Tailwind CSS
-  - CSS
+- **게시글**
+  - 게시글(후기/동행/가이드/추천한 게시물/참여한 여행) 조회
+  - 상세 게시글 조회
+  - 게시글 등록/수정/삭제
+  - 댓글과 좋아요
+ 
+- **여행**
+  - 여행 경로 생성
+  - 내가 만든 경로 조회/수정/삭제
+  - Google Maps와 Places API을 활용한 지도와 장소 검색 기능
+ 
+- **실시간 채팅**
+  - 사용자 간 실시간 채팅 기능 - WebSocket 사용
+  - 채팅 목록 조회 
 
-데이터 통신:
-  - axios
-  - WebSocket - 실시간 통신
+---
 
-오픈 API:
-  - Google Maps API
-  - Google Places API
+## 📍 기여 - 최정민
 
-배포 플랫폼:
+- 사용자 프로필 페이지 UI/UX과 내 프로필 **조회 및 수정** 
+- 내 여행 경로/게시글 **조회, 수정, 삭제** 
+- **Google Maps/Places API**를 활용한 지도 사용 및 장소 데이터 관리 - (장소와 키워드 검색)
+- 캘린더 모달을 통한 **내 여행 기간 설정**
+- **날짜별 장소 저장**와 메모 저장으로 여행 경로 생성
+- **Vercel**로 배포
+
+## 배포 플랫폼:
   - Vercel
-  - 배포 주소: https://travelbuddy1.vercel.app/
-
-CI/CD:
-  - Github Actions
+  - 주소: https://travelbuddy1.vercel.app/
 
 <img width="1419" alt="1" src="https://github.com/user-attachments/assets/60070490-3fa0-4231-81d9-3ec0ab6e5b84">
 <img width="1512" alt="1" src="https://github.com/user-attachments/assets/b098cf0a-0a74-4fd3-8f97-3f39df391453">
